@@ -1,0 +1,57 @@
+.save{
+    background-image: linear-gradient(to right bottom, rgba(126,213,111,0.8), rgba(40,180,133,0.8)),url(./img/hero-small.jpg);
+    height: 95vh;
+    width: 100%;
+    background-size: cover;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+.img{
+    position: absolute;
+    top: 6rem;
+    left: 5rem;
+    color: #ffffff;
+
+}
+.logo{
+    height: 2.5rem;
+
+
+}
+.container{
+    padding: 2rem;
+
+}
+.line{
+    color: white;
+    margin-bottom: 5rem;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    text-align: center;
+    display: block;
+
+    font-family: 'Open Sans Condensed', sans-serif;
+
+
+}
+.ten{
+    font-size: 4rem;
+    letter-spacing: 3rem;
+    margin-left: 1rem;
+
+
+}
+
+.temper{
+    font-family:  'Open Sans Condensed', sans-serif;
+    font-size: 1.9rem;
+    letter-spacing: 1.0rem;
+}
+
+
+
