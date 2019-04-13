@@ -78,6 +78,7 @@
     border-radius: 50%;
 
 
+
 }
 
 
@@ -86,7 +87,8 @@
     position: absolute;
     height: 2px;
     width: 38px;
-    background: brown;
+
+    background: black;
     border-radius: 3px;
     opacity: 1;
     left: 0;
@@ -117,13 +119,16 @@
 }
 
 #hamburger-icon span:nth-child(2), #hamburger-icon span:nth-child(3) {
-    top: 20px;
+    top: 10px;
 
 }
 
+#hamburger-icon span:nth-child(4) {
+    top: 20px;
+}
 
 
-#hamburger-icon.hamburger-open span{background:#fff}
+#hamburger-icon.hamburger-open span{background:blue;margin:34% 20%}
 
 #hamburger-icon.hamburger-open span:nth-child(1) {
     top: 18px;
