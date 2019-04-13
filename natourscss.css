@@ -1,33 +1,36 @@
-.save{
-    background-image: linear-gradient(to right bottom, rgba(126,213,111,0.8), rgba(40,180,133,0.8)),url(./img/hero-small.jpg);
+.save {
+    background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(./img/hero-small.jpg);
     height: 95vh;
     width: 100%;
     background-size: cover;
 
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
 }
-.img{
+
+.img {
     position: absolute;
     top: 6rem;
     left: 5rem;
     color: #ffffff;
 
 }
-.logo{
+
+.logo {
     height: 2.5rem;
 
-
 }
-.container{
+
+.container {
     padding: 2rem;
 
-
 }
-.line{
+
+.line {
     color: white;
     margin-bottom: 5rem;
     position: absolute;
@@ -38,20 +41,23 @@
 
     font-family: 'Open Sans Condensed', sans-serif;
 
-
 }
-.ten{
+
+.ten {
     font-size: 4rem;
     letter-spacing: 3rem;
     margin-left: 1rem;
+    animation-timing-function: ease-out;
 
 
 }
 
-.temper{
-    font-family:  'Open Sans Condensed', sans-serif;
+.temper {
+    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 1.9rem;
     letter-spacing: 1.0rem;
+    animation-timing-function: ease-out;
+
 }
 
 
