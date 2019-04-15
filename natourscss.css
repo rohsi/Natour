@@ -3,6 +3,7 @@
     height: 95vh;
     width: 100%;
     background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
 }
 
@@ -60,8 +61,72 @@
 
 }
 
+.u-center-text{
+    margin-bottom: 8rem!important;
+    text-align: center;
+}
+
+.heading-secondary{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    color: #7ed56f;
 
 
+}
+.section-about{
+    background-color: #f7f7f7;
+    margin-top: -20vh;
+    padding: 15rem 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
 
+.heading-tertiary{
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 3%;
+}
 
+.paragraph{
+    font-size: 1.6rem;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.btn-text{
+    font-size: 1.6rem;
+    color: green;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid green;
+    padding: 3px;
 
+}
+.drd{
+    margin-left: 5% !important;
+}
+.composition{
+    position: relative;
+}
+.composition__photo--p1{
+    left: 0;
+    top: -2rem;
+}
+
+.composition__photo{
+    width: 55%;
+    box-shadow: 0 1.5rem 4rem rgba(0,0,0,0.4);
+    border-radius: 2px;
+    position: absolute;
+    z-index: 10;
+}
+.composition__photo--p2{
+    right: 0;
+    top: .5rem;
+}
+
+.composition__photo--p3{
+    left: 20%;
+    top: 4rem;
+}
