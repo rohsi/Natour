@@ -121,6 +121,12 @@
     position: absolute;
     z-index: 10;
 }
+.composition__photo:hover{
+    outline: .5rem solid green;
+    transform: scale(1.15) translateY(-.5rem);
+    box-shadow: 0 2.5rem 4rem rgba(0,0,0,0.5);
+    z-index: 20;
+}
 .composition__photo--p2{
     right: 0;
     top: .5rem;
